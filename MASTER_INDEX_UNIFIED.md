@@ -83,16 +83,16 @@ This file acts as the central navigational hub for the repository.
 
 | ID | Technique Name | MITRE | CVE | Environment | File Path |
 |---|---|---|---|---|---|
-| CA-DUMP-001 | Mimikatz LSASS memory extraction | T1003.001 | CVE-2014-6318 | Windows Endpoint | `03_Cred/CA-DUMP-001_Mimikatz.md` |
-| CA-DUMP-002 | DCSync domain controller sync attack | T1003.006 | CVE-2014-6324 | Windows AD | `03_Cred/CA-DUMP-002_DCSync.md` |
-| CA-DUMP-003 | LSA secrets dump | T1003.004 | N/A | Windows Endpoint | `03_Cred/CA-DUMP-003_LSA.md` |
-| CA-DUMP-004 | Cached domain credentials extraction | T1003.005 | N/A | Windows Endpoint | `03_Cred/CA-DUMP-004_Cached.md` |
-| CA-DUMP-005 | SAM database extraction | T1003.002 | N/A | Windows Endpoint | `03_Cred/CA-DUMP-005_SAM.md` |
-| CA-DUMP-006 | NTDS.dit extraction | T1003.003 | CVE-2014-6324 | Windows AD | `03_Cred/CA-DUMP-006_NTDS.md` |
-| CA-DUMP-007 | VSS NTDS.dit abuse | T1003.003 | N/A | Windows AD | `03_Cred/CA-DUMP-007_VSS.md` |
-| CA-DUMP-008 | SCCM Content Library NTDS access | T1003.003 | N/A | Windows AD | `03_Cred/CA-DUMP-008_SCCM.md` |
-| CA-DUMP-009 | Mapped drive credential exposure | T1003.001 | N/A | Windows Endpoint | `03_Cred/CA-DUMP-009_Mapped.md` |
-| CA-DUMP-010 | UF_ENCRYPTED_TEXT_PASSWORD extraction | T1003 | N/A | Windows AD | `03_Cred/CA-DUMP-010_UF_Encrypted.md` |
+| CA-DUMP-001 | Mimikatz LSASS memory extraction | T1003.001 | CVE-2014-6318 | Windows Endpoint | [03_Cred/CA-DUMP-001_Mimikatz.md](03_Cred/CA-DUMP-001_Mimikatz.md) |
+| CA-DUMP-002 | DCSync domain controller sync attack | T1003.006 | CVE-2014-6324 | Windows AD | [03_Cred/CA-DUMP-002_DCSync.md](03_Cred/CA-DUMP-002_DCSync.md) |
+| CA-DUMP-003 | LSA secrets dump | T1003.004 | N/A | Windows Endpoint | [03_Cred/CA-DUMP-003_LSA.md](03_Cred/CA-DUMP-003_LSA.md) |
+| CA-DUMP-004 | Cached domain credentials extraction | T1003.005 | N/A | Windows Endpoint | [03_Cred/CA-DUMP-004_Cached.md](03_Cred/CA-DUMP-004_Cached.md) |
+| CA-DUMP-005 | SAM database extraction | T1003.002 | N/A | Windows Endpoint | [03_Cred/CA-DUMP-005_SAM.md](03_Cred/CA-DUMP-005_SAM.md) |
+| CA-DUMP-006 | NTDS.dit extraction | T1003.003 | CVE-2014-6324 | Windows AD | [03_Cred/CA-DUMP-006_NTDS.md](03_Cred/CA-DUMP-006_NTDS.md) |
+| CA-DUMP-007 | VSS NTDS.dit abuse | T1003.003 | N/A | Windows AD | [03_Cred/CA-DUMP-007_VSS.md](03_Cred/CA-DUMP-007_VSS.md) |
+| CA-DUMP-008 | SCCM Content Library NTDS access | T1003.003 | N/A | Windows AD | [03_Cred/CA-DUMP-008_SCCM.md](03_Cred/CA-DUMP-008_SCCM.md) |
+| CA-DUMP-009 | Mapped drive credential exposure | T1003.001 | N/A | Windows Endpoint | [03_Cred/CA-DUMP-009_Mapped.md](03_Cred/CA-DUMP-009_Mapped.md) |
+| CA-DUMP-010 | UF_ENCRYPTED_TEXT_PASSWORD extraction | T1003 | N/A | Windows AD | [03_Cred/CA-DUMP-010_UF_Encrypted.md](03_Cred/CA-DUMP-010_UF_Encrypted.md) |
 
 ## Subcategory 3.2: Kerberos Ticket Attacks (17 techniques)
 
