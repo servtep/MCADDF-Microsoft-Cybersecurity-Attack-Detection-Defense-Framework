@@ -27,7 +27,7 @@ Unlike standard checklists, this framework maps the entire adversarial lifecycle
 Modern enterprises do not operate in silos; they operate in hybrid states. Attackers pivot seamlessly between on-prem domain controllers and cloud tenants. This framework is built to reflect that reality.
 
 ### Key Features
-*   **Hybrid-Native Focus:** Deeply analyzes the synchronization points (e.g., Azure AD Connect) where most modern breaches occur.
+*   **Hybrid-Native Focus:** Deeply analyzes the synchronization points (e.g., Azure AD Connect or Microsoft Entra Connect) where most modern breaches occur.
 *   **The SERVTEP ID System:** Utilizes a proprietary navigation system for precise referencing and tracking.
 *   **MITRE ATT&CK® v18.1 Aligned:** Every technique is mapped to the latest T-codes, ensuring compatibility with standard threat intelligence feeds.
 *   **Purple Team Ready:** Each entry is designed to support both **Offensive Execution** (Red) and **Defensive Detection** (Blue).
@@ -67,7 +67,7 @@ These codes define the specific environment or technology stack targeted by the 
 | **AD** | Active Directory (On-Prem) | Domain Controllers, LDAP, Kerberos, DNS, GPO, LAPS |
 | **CLOUD** | Azure & Entra ID | App Registrations, Service Principals, Key Vaults, Azure Resources |
 | **M365** | Microsoft 365 SaaS | Exchange Online, SharePoint, Teams, Graph API, OneDrive |
-| **HYBRID** | Sync Architecture | Azure AD Connect, PHS, PTA, Federation (ADFS), Seamless SSO |
+| **HYBRID** | Sync Architecture | Azure AD Connect, Microsoft Entra Connect, PHS, PTA, Federation (ADFS), Seamless SSO |
 | **PHISH** | Social Engineering | OAuth Consent Grants, Device Code Phishing, Branding Spoofing |
 | **EXPLOIT**| Vulnerability Exploitation | CVEs, Deserialization, Logic Apps, Unpatched Services |
 | **CERT** | Certificate Services | ADCS (Active Directory Certificate Services), ESC1-ESC8, CA Misconfigs |
