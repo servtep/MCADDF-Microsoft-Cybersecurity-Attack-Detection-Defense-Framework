@@ -22,6 +22,45 @@ Unlike standard checklists, this framework maps the entire adversarial lifecycle
 
 ---
 
+## 🤝 Expert Consulting Services
+
+**Transform your Microsoft security across on-premises, cloud, and hybrid environments**
+
+### Who I Am
+**Artur Pchelnikau** — CISO | Microsoft Security Architect | Penetration Tester | OSINT Expert  
+**17+ years** architecting secure Microsoft infrastructure at enterprise scale
+
+### What I Do
+Comprehensive cybersecurity consulting for **Active Directory | Azure | Entra ID | M365 | Hybrid Security**
+
+| Environment | Services |
+|---|---|
+| **On-Premises** | AD hardening, tiering, FSMO, forest security, Windows Server hardening |
+| **Cloud (Azure)** | Entra ID, Zero Trust, Conditional Access (RBAC/ABAC/PBAC/ReBAC), governance |
+| **Hybrid** | Identity sync, cross-tenant, on-prem to cloud migration, seamless security |
+| **Microsoft 365** | Exchange, Teams, SharePoint, OneDrive, DLP, compliance policies |
+| **Threat Defense** | SIEM (Sentinel), EDR/NDR, SOC optimization, incident response, threat hunting |
+| **Advanced** | AI automation, security orchestration, attack simulation, compliance frameworks |
+
+### Red Team Capabilities
+🔴 **Penetration Testing:** Infrastructure assessment, vulnerability discovery, exploitation chains  
+🔴 **OSINT & Reconnaissance:** Deep reconnaissance, attack surface mapping, threat intelligence  
+🔴 **Security Testing:** Microsoft environment red teaming, attack simulation using MCADDF scenarios  
+🔴 **Purple Team Exercises:** Bridge offensive & defensive operations, validate detection capabilities  
+
+### Core Competencies
+🔐 **Identity & Access:** IAM, RBAC, ABAC, PBAC, ReBAC, Conditional Access  
+🛡️ **Security Architecture:** Zero Trust, defense-in-depth, risk-based design  
+📊 **Compliance & Hardening:** NIST 800-53, CIS Benchmarks, ISO 27001, STIG  
+🚨 **Threat Intelligence:** 500+ attack scenarios (MCADDF creator), detection engineering  
+⚙️ **Automation & AI:** Intelligent threat response, security workflows, SOAR integration  
+🎯 **Red Team Expertise:** Penetration testing, OSINT, attack simulation, vulnerability assessment  
+
+### Ready to Strengthen Your Microsoft Security?
+**[Schedule a consultation →](https://www.linkedin.com/in/artur-pchelnikau/)**
+
+---
+
 ## 🛡️ Core Philosophy
 
 Modern enterprises do not operate in silos; they operate in hybrid states. Attackers pivot seamlessly between on-prem domain controllers and cloud tenants. This framework is built to reflect that reality.
