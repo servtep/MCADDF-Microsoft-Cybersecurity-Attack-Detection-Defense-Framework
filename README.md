@@ -27,11 +27,11 @@ Unlike standard checklists, this framework maps the entire adversarial lifecycle
 **Transform your Microsoft security across on-premises, cloud, and hybrid environments**
 
 ### Who I Am
-**Artur Pchelnikau** — CISO | Microsoft Security Architect | Penetration Tester | OSINT Expert  
-**17+ years** architecting secure Microsoft infrastructure at enterprise scale
+**Artur Pchelnikau** — CISO | IT Project Manager | Microsoft Security Architect | Penetration Tester | OSINT Expert  
+**17+ years** architecting & implementing secure Microsoft infrastructure at enterprise scale
 
 ### What I Do
-Comprehensive cybersecurity consulting for **Active Directory | Azure | Entra ID | M365 | Hybrid Security**
+Comprehensive cybersecurity consulting & program management for **Active Directory | Azure | Entra ID | M365 | Hybrid Security**
 
 | Environment | Services |
 |---|---|
@@ -41,6 +41,12 @@ Comprehensive cybersecurity consulting for **Active Directory | Azure | Entra ID
 | **Microsoft 365** | Exchange, Teams, SharePoint, OneDrive, DLP, compliance policies |
 | **Threat Defense** | SIEM (Sentinel), EDR/NDR, SOC optimization, incident response, threat hunting |
 | **Advanced** | AI automation, security orchestration, attack simulation, compliance frameworks |
+
+### Delivery & Project Management
+📊 **Program Leadership:** Large-scale infrastructure transformation, compliance initiatives, strategic roadmaps  
+📋 **Project Execution:** Security implementation, migration planning, risk management, resource coordination  
+⏱️ **Methodology:** Agile & waterfall delivery, stakeholder alignment, phased rollout, continuous improvement  
+✅ **Success Metrics:** Timeline adherence, budget optimization, quality assurance, business alignment  
 
 ### Red Team Capabilities
 🔴 **Penetration Testing:** Infrastructure assessment, vulnerability discovery, exploitation chains  
@@ -55,6 +61,7 @@ Comprehensive cybersecurity consulting for **Active Directory | Azure | Entra ID
 🚨 **Threat Intelligence:** 500+ attack scenarios (MCADDF creator), detection engineering  
 ⚙️ **Automation & AI:** Intelligent threat response, security workflows, SOAR integration  
 🎯 **Red Team Expertise:** Penetration testing, OSINT, attack simulation, vulnerability assessment  
+📈 **Project Leadership:** Enterprise transformation, program delivery, strategic execution  
 
 ### Ready to Strengthen Your Microsoft Security?
 **[Schedule a consultation →](https://www.linkedin.com/in/artur-pchelnikau/)**
