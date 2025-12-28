@@ -1,3 +1,35 @@
+# Microsoft Cybersecurity Attack, Detection \& Defense Framework
+
+**Maintained by:** SERVTEP (France)
+**Lead Architect:** Pchelnikau Artur
+**Version:** 1.0 (Final Verified)
+
+## Executive Overview
+
+This document serves as the master index for the **Microsoft Cybersecurity Attack, Detection \& Defense Framework**, a comprehensive operational project developed by the research division of **SERVTEP**. Curated under the technical leadership of **Pchelnikau Artur**, this framework provides a structured, tactical roadmap through 501 verified vectors in the modern adversarial lifecycle.
+
+Unlike traditional pentest checklists, this framework is designed as a holistic resource for Purple Teaming. It bridges the critical gap between offensive tradecraft (Red Team), detection engineering (Blue Team), and architectural hardening (Defense), specifically tailored for **hybrid enterprise environments** (Windows Active Directory, Microsoft Entra ID, Azure, and Microsoft 365).
+
+## Scope and Architecture
+
+The framework is methodically organized by tactical phase, mapping the progression of a sophisticated adversary. It encompasses:
+
+* **Hybrid Identity Vectors:** Deep-dive methodologies for compromising and defending the synchronization points between on-premises AD and the cloud.
+* **Cloud-Native Exploitation:** Targeted techniques for Azure Resources, Logic Apps, and SaaS persistence mechanisms.
+* **Tactical Depth:** A granular breakdown of 501 specific procedures, ranging from standard enumeration to advanced exploitation, all rigorously validated by Pchelnikau Artur and the SERVTEP technical team.
+
+
+## How to Use This Framework
+
+This file acts as the central navigational hub for the repository.
+
+* **ID System:** Each technique is assigned a unique identifier (e.g., `REC-AD-001`, `CA-DUMP-005`) for precise referencing in reports and SIEM rules.
+* **MITRE Mapping:** Use the MITRE T-codes (e.g., `T1590.001`) to correlate techniques with threat intelligence feeds.
+* **File Paths:** Direct references to the detailed markdown files allow for modular access to execution steps, prerequisites, and operational security (OpSec) considerations.
+
+> **⚠️ DISCLOSURE \& COMPLIANCE**
+> This repository is intended strictly for **authorized security testing, educational purposes, and defensive research**. The techniques documented herein involve mechanisms that can disrupt critical business operations. Users are responsible for ensuring all activities are conducted within the scope of a signed Rule of Engagement (RoE) and in compliance with all applicable laws and regulations (e.g., CFAA, GDPR).
+
 # CATEGORY 1: RECONNAISSANCE & DISCOVERY (18 Techniques)
 
 | ID | Technique Name | MITRE | CVE | Environment | File Path |
@@ -825,3 +857,31 @@
 | REALWORLD-047 | Azure Entra ID Sign-in Log Tampering | T1562.002 | N/A | Entra ID | `24_RealWorld/REALWORLD-047_SignIn_Tamper.md` |
 
 ---
+
+# Framework Conclusion \& Strategic Application
+
+The **Microsoft Cybersecurity Attack, Detection \& Defense Framework** represents a standardization of the current threat landscape facing hybrid organizations. By documenting **501 distinct vectors**, **SERVTEP** and **Pchelnikau Artur** have provided the community with a unified language to describe how attacks occur across the Microsoft ecosystem—and, crucially, how to detect them.
+
+## Operational Value
+
+For security professionals, this framework supports three primary pillars:
+
+1. **Offensive Operations (Red Teaming):**
+    * Serves as a "cheat sheet" for campaign planning, ensuring comprehensive coverage of potential attack paths during engagements.
+    * Facilitates the chaining of techniques (e.g., *Cred Dumping* → *Pass-the-Hash* → *Cloud Lateral Movement*) to simulate realistic APT behaviors.
+2. **Detection \& Defense (Blue Teaming):**
+    * **Detection Engineering:** Every technique listed here serves as a test case for validating SIEM alerts (Sigma/YARA).
+    * **Gap Analysis:** Allows defenders to systematically validate controls against specific MITRE T-codes, ensuring no coverage gaps exist between on-prem and cloud scopes.
+3. **Risk Assessment:**
+    * Enables auditors and architects to prioritize remediation efforts based on the prevalence and severity of techniques validated by SERVTEP's research.
+
+## The Path Forward
+
+The cybersecurity landscape is volatile by design. While these 501 techniques represent the state of the art in hybrid exploitation today, the methodologies will evolve. This framework is maintained as a living project by **SERVTEP**—continuously updated as vendors patch vulnerabilities, new attack surfaces emerge, and adversaries shift their tradecraft.
+
+*Final Verification Completed: December 2025*
+*Lead Architect: Pchelnikau Artur*
+*Organization: SERVTEP*
+<span style="display:none">[^1]</span>
+
+<div align="center">⁂</div>
