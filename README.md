@@ -135,5 +135,5 @@ This project is licensed under the terms of the [LICENSE](./LICENSE) file.
 ---
 
 <p align="center">
-  Built with ❤️ in France by <strong>[SERVTEP](https://servtep.com)</strong>
+  Built with ❤️ in France by <strong>**[SERVTEP](https://servtep.com)**</strong>
 </p>
