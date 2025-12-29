@@ -198,114 +198,114 @@ This file acts as the central navigational hub for the repository.
 
 | ID | Technique Name | MITRE | CVE | Environment | File Path |
 |---|---|---|---|---|---|
-| PE-TOKEN-001 | Token Impersonation privilege escalation | T1134.001 | N/A | Windows Endpoint | `04_PrivEsc/PE-TOKEN-001_Token_Impersonation.md` |
-| PE-TOKEN-002 | Resource-Based Constrained Delegation (RBCD) | T1134.005 | CVE-2021-42287 | Windows AD | `04_PrivEsc/PE-TOKEN-002_RBCD.md` |
-| PE-TOKEN-003 | ForeignSecurityPrincipal SID Abuse | T1134.005 | N/A | Windows AD | `04_PrivEsc/PE-TOKEN-003_FSP_SID.md` |
-| PE-TOKEN-004 | SIDHistory Injection | T1134.005 | N/A | Windows AD | `04_PrivEsc/PE-TOKEN-004_SIDHistory.md` |
-| PE-TOKEN-005 | RID Hijacking | T1134.005 | CVE-2021-42287 | Windows AD | `04_PrivEsc/PE-TOKEN-005_RID_Hijacking.md` |
-| PE-TOKEN-006 | SamAccountName Spoofing | T1134.005 | CVE-2021-42287 | Windows AD | `04_PrivEsc/PE-TOKEN-006_SamAccountName.md` |
-| PE-TOKEN-007 | SeEnableDelegationPrivilege Abuse | T1134 | N/A | Windows AD | `04_PrivEsc/PE-TOKEN-007_SeEnableDelegation.md` |
-| PE-TOKEN-008 | API Authentication Token Manipulation | T1134 | N/A | Entra ID | `04_PrivEsc/PE-TOKEN-008_API_Token.md` |
-| PE-TOKEN-009 | CLFS Driver Token Impersonation | T1134.001 | N/A | Windows Endpoint | `04_PrivEsc/PE-TOKEN-009_CLFS_Token.md` |
+| PE-TOKEN-001 | Token Impersonation privilege escalation | T1134.001 | N/A | Windows Endpoint | [04_PrivEsc/PE-TOKEN-001_Token_Impersonation.md](04_PrivEsc/PE-TOKEN-001_Token_Impersonation.md) |
+| PE-TOKEN-002 | Resource-Based Constrained Delegation (RBCD) | T1134.005 | CVE-2021-42287 | Windows AD | [04_PrivEsc/PE-TOKEN-002_RBCD.md](04_PrivEsc/PE-TOKEN-002_RBCD.md) |
+| PE-TOKEN-003 | ForeignSecurityPrincipal SID Abuse | T1134.005 | N/A | Windows AD | [04_PrivEsc/PE-TOKEN-003_FSP_SID.md](04_PrivEsc/PE-TOKEN-003_FSP_SID.md) |
+| PE-TOKEN-004 | SIDHistory Injection | T1134.005 | N/A | Windows AD | [04_PrivEsc/PE-TOKEN-004_SIDHistory.md](04_PrivEsc/PE-TOKEN-004_SIDHistory.md) |
+| PE-TOKEN-005 | RID Hijacking | T1134.005 | CVE-2021-42287 | Windows AD | [04_PrivEsc/PE-TOKEN-005_RID_Hijacking.md](04_PrivEsc/PE-TOKEN-005_RID_Hijacking.md) |
+| PE-TOKEN-006 | SamAccountName Spoofing | T1134.005 | CVE-2021-42287 | Windows AD | [04_PrivEsc/PE-TOKEN-006_SamAccountName.md](04_PrivEsc/PE-TOKEN-006_SamAccountName.md) |
+| PE-TOKEN-007 | SeEnableDelegationPrivilege Abuse | T1134 | N/A | Windows AD | [04_PrivEsc/PE-TOKEN-007_SeEnableDelegation.md](04_PrivEsc/PE-TOKEN-007_SeEnableDelegation.md) |
+| PE-TOKEN-008 | API Authentication Token Manipulation | T1134 | N/A | Entra ID | [04_PrivEsc/PE-TOKEN-008_API_Token.md](04_PrivEsc/PE-TOKEN-008_API_Token.md) |
+| PE-TOKEN-009 | CLFS Driver Token Impersonation | T1134.001 | N/A | Windows Endpoint | [04_PrivEsc/PE-TOKEN-009_CLFS_Token.md](04_PrivEsc/PE-TOKEN-009_CLFS_Token.md) |
 
 ## Subcategory 4.2: Exploitation for Privilege Escalation (8 techniques)
 
 | ID | Technique Name | MITRE | CVE | Environment | File Path |
 |---|---|---|---|---|---|
-| PE-EXPLOIT-001 | PrintNightmare remote privilege escalation | T1068 | CVE-2021-34527 | Windows AD/Endpoint | `04_PrivEsc/PE-EXPLOIT-001_PrintNightmare.md` |
-| PE-EXPLOIT-002 | ZeroLogon DC compromise | T1068 | CVE-2020-1472 | Windows AD | `04_PrivEsc/PE-EXPLOIT-002_ZeroLogon.md` |
-| PE-EXPLOIT-003 | CLFS Driver Memory Corruption | T1068 | CVE-2025-29824 | Windows Endpoint | `04_PrivEsc/PE-EXPLOIT-003_CLFS_Driver.md` |
-| PE-EXPLOIT-004 | Container Escape to Host | T1611 | CVE-2025-21196 | Entra ID | `04_PrivEsc/PE-EXPLOIT-004_Container_Escape.md` |
-| PE-EXPLOIT-005 | Pod Security Context Escalation | T1068 | N/A | Entra ID | `04_PrivEsc/PE-EXPLOIT-005_Pod_Security.md` |
-| PE-EXPLOIT-006 | Container Runtime Socket Abuse | T1068 | N/A | Entra ID | `04_PrivEsc/PE-EXPLOIT-006_Container_Runtime.md` |
-| PE-EXPLOIT-007 | IoT Edge Runtime Escalation | T1068 | N/A | Entra ID | `04_PrivEsc/PE-EXPLOIT-007_IoT_Edge.md` |
-| PE-EXPLOIT-008 | AKS Container Escape (CVE-2025-21196) | T1611 | CVE-2025-21196 | Entra ID | `04_PrivEsc/PE-EXPLOIT-008_AKS_Container.md` |
+| PE-EXPLOIT-001 | PrintNightmare remote privilege escalation | T1068 | CVE-2021-34527 | Windows AD/Endpoint | [04_PrivEsc/PE-EXPLOIT-001_PrintNightmare.md](04_PrivEsc/PE-EXPLOIT-001_PrintNightmare.md) |
+| PE-EXPLOIT-002 | ZeroLogon DC compromise | T1068 | CVE-2020-1472 | Windows AD | [04_PrivEsc/PE-EXPLOIT-002_ZeroLogon.md](04_PrivEsc/PE-EXPLOIT-002_ZeroLogon.md) |
+| PE-EXPLOIT-003 | CLFS Driver Memory Corruption | T1068 | CVE-2025-29824 | Windows Endpoint | [04_PrivEsc/PE-EXPLOIT-003_CLFS_Driver.md](04_PrivEsc/PE-EXPLOIT-003_CLFS_Driver.md) |
+| PE-EXPLOIT-004 | Container Escape to Host | T1611 | CVE-2025-21196 | Entra ID | [04_PrivEsc/PE-EXPLOIT-004_Container_Escape.md](04_PrivEsc/PE-EXPLOIT-004_Container_Escape.md) |
+| PE-EXPLOIT-005 | Pod Security Context Escalation | T1068 | N/A | Entra ID | [04_PrivEsc/PE-EXPLOIT-005_Pod_Security.md](04_PrivEsc/PE-EXPLOIT-005_Pod_Security.md) |
+| PE-EXPLOIT-006 | Container Runtime Socket Abuse | T1068 | N/A | Entra ID | [04_PrivEsc/PE-EXPLOIT-006_Container_Runtime.md](04_PrivEsc/PE-EXPLOIT-006_Container_Runtime.md) |
+| PE-EXPLOIT-007 | IoT Edge Runtime Escalation | T1068 | N/A | Entra ID | [04_PrivEsc/PE-EXPLOIT-007_IoT_Edge.md](04_PrivEsc/PE-EXPLOIT-007_IoT_Edge.md) |
+| PE-EXPLOIT-008 | AKS Container Escape (CVE-2025-21196) | T1611 | CVE-2025-21196 | Entra ID | [04_PrivEsc/PE-EXPLOIT-008_AKS_Container.md](04_PrivEsc/PE-EXPLOIT-008_AKS_Container.md) |
 
 ## Subcategory 4.3: Domain Policy Modification (7 techniques)
 
 | ID | Technique Name | MITRE | CVE | Environment | File Path |
 |---|---|---|---|---|---|
-| PE-POLICY-001 | GPO Abuse for Persistence escalation | T1484.001 | N/A | Windows AD | `04_PrivEsc/PE-POLICY-001_GPO_Abuse.md` |
-| PE-POLICY-002 | Creating Rogue GPOs | T1484.001 | N/A | Windows AD | `04_PrivEsc/PE-POLICY-002_Rogue_GPO.md` |
-| PE-POLICY-003 | Azure Management Group Escalation | T1484.001 | CVE-2023-28432 | Entra ID | `04_PrivEsc/PE-POLICY-003_Mgmt_Group.md` |
-| PE-POLICY-004 | Azure Lighthouse Delegation Abuse | T1484.001 | N/A | Entra ID | `04_PrivEsc/PE-POLICY-004_Lighthouse.md` |
-| PE-POLICY-005 | Cross-tenant Privilege Escalation | T1484.002 | N/A | M365/Entra ID | `04_PrivEsc/PE-POLICY-005_Cross_Tenant.md` |
-| PE-POLICY-006 | Federation Trust Relationship Abuse | T1484.002 | N/A | Hybrid AD | `04_PrivEsc/PE-POLICY-006_Fed_Trust.md` |
-| PE-POLICY-007 | Azure Policy Definition Injection | T1484.001 | N/A | Entra ID | `04_PrivEsc/PE-POLICY-007_Azure_Policy.md` |
+| PE-POLICY-001 | GPO Abuse for Persistence escalation | T1484.001 | N/A | Windows AD | [04_PrivEsc/PE-POLICY-001_GPO_Abuse.md](04_PrivEsc/PE-POLICY-001_GPO_Abuse.md) |
+| PE-POLICY-002 | Creating Rogue GPOs | T1484.001 | N/A | Windows AD | [04_PrivEsc/PE-POLICY-002_Rogue_GPO.md](04_PrivEsc/PE-POLICY-002_Rogue_GPO.md) |
+| PE-POLICY-003 | Azure Management Group Escalation | T1484.001 | CVE-2023-28432 | Entra ID | [04_PrivEsc/PE-POLICY-003_Mgmt_Group.md](04_PrivEsc/PE-POLICY-003_Mgmt_Group.md) |
+| PE-POLICY-004 | Azure Lighthouse Delegation Abuse | T1484.001 | N/A | Entra ID | [04_PrivEsc/PE-POLICY-004_Lighthouse.md](04_PrivEsc/PE-POLICY-004_Lighthouse.md) |
+| PE-POLICY-005 | Cross-tenant Privilege Escalation | T1484.002 | N/A | M365/Entra ID | [04_PrivEsc/PE-POLICY-005_Cross_Tenant.md](04_PrivEsc/PE-POLICY-005_Cross_Tenant.md) |
+| PE-POLICY-006 | Federation Trust Relationship Abuse | T1484.002 | N/A | Hybrid AD | [04_PrivEsc/PE-POLICY-006_Fed_Trust.md](04_PrivEsc/PE-POLICY-006_Fed_Trust.md) |
+| PE-POLICY-007 | Azure Policy Definition Injection | T1484.001 | N/A | Entra ID | [04_PrivEsc/PE-POLICY-007_Azure_Policy.md](04_PrivEsc/PE-POLICY-007_Azure_Policy.md) |
 
 ## Subcategory 4.4: Valid Accounts Escalation (17 techniques)
 
 | ID | Technique Name | MITRE | CVE | Environment | File Path |
 |---|---|---|---|---|---|
-| PE-VALID-001 | Exchange Server ACL Abuse | T1078.002 | N/A | Windows AD | `04_PrivEsc/PE-VALID-001_Exchange_ACL.md` |
-| PE-VALID-002 | Computer Account Quota Abuse | T1078.002 | CVE-2021-42287 | Windows AD | `04_PrivEsc/PE-VALID-002_Comp_Quota.md` |
-| PE-VALID-003 | Unfiltered DNSAdmins Access | T1078.002 | N/A | Windows AD | `04_PrivEsc/PE-VALID-003_DNSAdmins.md` |
-| PE-VALID-004 | Delegation Misconfiguration | T1078.002 | N/A | Windows AD | `04_PrivEsc/PE-VALID-004_Delegation.md` |
-| PE-VALID-005 | Cross-Forest Trust Exploitation | T1078.002 | N/A | Windows AD | `04_PrivEsc/PE-VALID-005_Cross_Forest.md` |
-| PE-VALID-006 | Directory Services Restore Mode (DSRM) | T1078.002 | N/A | Windows AD | `04_PrivEsc/PE-VALID-006_DSRM.md` |
-| PE-VALID-007 | Abusing Print Operators Group | T1078.002 | N/A | Windows AD | `04_PrivEsc/PE-VALID-007_Print_Operators.md` |
-| PE-VALID-008 | SCCM Client Push Account Abuse | T1078.003 | N/A | Windows AD | `04_PrivEsc/PE-VALID-008_SCCM_Push.md` |
-| PE-VALID-009 | SCCM NAA Privilege Escalation | T1078.002 | N/A | Windows AD | `04_PrivEsc/PE-VALID-009_SCCM_NAA.md` |
-| PE-VALID-010 | Azure Role Assignment Abuse | T1078.004 | N/A | Entra ID | `04_PrivEsc/PE-VALID-010_Azure_Role.md` |
-| PE-VALID-011 | Managed Identity MSI Escalation | T1078.004 | N/A | Entra ID | `04_PrivEsc/PE-VALID-011_MSI.md` |
-| PE-VALID-012 | Azure VM Contributor to Owner | T1078.004 | N/A | Entra ID | `04_PrivEsc/PE-VALID-012_VM_Contributor.md` |
-| PE-VALID-013 | Azure Guest User Escalation | T1078.004 | N/A | Entra ID | `04_PrivEsc/PE-VALID-013_Guest_User.md` |
-| PE-VALID-014 | Microsoft Partners/CSP Access Abuse | T1078.004 | N/A | M365/Entra ID | `04_PrivEsc/PE-VALID-014_CSP_Access.md` |
-| PE-VALID-015 | AKS Node Identity Compromise | T1078.004 | N/A | Entra ID | `04_PrivEsc/PE-VALID-015_AKS_Node.md` |
-| PE-VALID-016 | Managed Identity Pod Assignment | T1078.004 | N/A | Entra ID | `04_PrivEsc/PE-VALID-016_Pod_Identity.md` |
-| PE-VALID-017 | Azure Lighthouse Cross-Tenant | T1078.004 | N/A | Entra ID | `04_PrivEsc/PE-VALID-017_Lighthouse_CT.md` |
+| PE-VALID-001 | Exchange Server ACL Abuse | T1078.002 | N/A | Windows AD | [04_PrivEsc/PE-VALID-001_Exchange_ACL.md](04_PrivEsc/PE-VALID-001_Exchange_ACL.md) |
+| PE-VALID-002 | Computer Account Quota Abuse | T1078.002 | CVE-2021-42287 | Windows AD | [04_PrivEsc/PE-VALID-002_Comp_Quota.md](04_PrivEsc/PE-VALID-002_Comp_Quota.md) |
+| PE-VALID-003 | Unfiltered DNSAdmins Access | T1078.002 | N/A | Windows AD | [04_PrivEsc/PE-VALID-003_DNSAdmins.md](04_PrivEsc/PE-VALID-003_DNSAdmins.md) |
+| PE-VALID-004 | Delegation Misconfiguration | T1078.002 | N/A | Windows AD | [04_PrivEsc/PE-VALID-004_Delegation.md](04_PrivEsc/PE-VALID-004_Delegation.md) |
+| PE-VALID-005 | Cross-Forest Trust Exploitation | T1078.002 | N/A | Windows AD | [04_PrivEsc/PE-VALID-005_Cross_Forest.md](04_PrivEsc/PE-VALID-005_Cross_Forest.md) |
+| PE-VALID-006 | Directory Services Restore Mode (DSRM) | T1078.002 | N/A | Windows AD | [04_PrivEsc/PE-VALID-006_DSRM.md](04_PrivEsc/PE-VALID-006_DSRM.md) |
+| PE-VALID-007 | Abusing Print Operators Group | T1078.002 | N/A | Windows AD | [04_PrivEsc/PE-VALID-007_Print_Operators.md](04_PrivEsc/PE-VALID-007_Print_Operators.md) |
+| PE-VALID-008 | SCCM Client Push Account Abuse | T1078.003 | N/A | Windows AD | [04_PrivEsc/PE-VALID-008_SCCM_Push.md](04_PrivEsc/PE-VALID-008_SCCM_Push.md) |
+| PE-VALID-009 | SCCM NAA Privilege Escalation | T1078.002 | N/A | Windows AD | [04_PrivEsc/PE-VALID-009_SCCM_NAA.md](04_PrivEsc/PE-VALID-009_SCCM_NAA.md) |
+| PE-VALID-010 | Azure Role Assignment Abuse | T1078.004 | N/A | Entra ID | [04_PrivEsc/PE-VALID-010_Azure_Role.md](04_PrivEsc/PE-VALID-010_Azure_Role.md) |
+| PE-VALID-011 | Managed Identity MSI Escalation | T1078.004 | N/A | Entra ID | [04_PrivEsc/PE-VALID-011_MSI.md](04_PrivEsc/PE-VALID-011_MSI.md) |
+| PE-VALID-012 | Azure VM Contributor to Owner | T1078.004 | N/A | Entra ID | [04_PrivEsc/PE-VALID-012_VM_Contributor.md](04_PrivEsc/PE-VALID-012_VM_Contributor.md) |
+| PE-VALID-013 | Azure Guest User Escalation | T1078.004 | N/A | Entra ID | [04_PrivEsc/PE-VALID-013_Guest_User.md](04_PrivEsc/PE-VALID-013_Guest_User.md) |
+| PE-VALID-014 | Microsoft Partners/CSP Access Abuse | T1078.004 | N/A | M365/Entra ID | [04_PrivEsc/PE-VALID-014_CSP_Access.md](04_PrivEsc/PE-VALID-014_CSP_Access.md) |
+| PE-VALID-015 | AKS Node Identity Compromise | T1078.004 | N/A | Entra ID | [04_PrivEsc/PE-VALID-015_AKS_Node.md](04_PrivEsc/PE-VALID-015_AKS_Node.md) |
+| PE-VALID-016 | Managed Identity Pod Assignment | T1078.004 | N/A | Entra ID | [04_PrivEsc/PE-VALID-016_Pod_Identity.md](04_PrivEsc/PE-VALID-016_Pod_Identity.md) |
+| PE-VALID-017 | Azure Lighthouse Cross-Tenant | T1078.004 | N/A | Entra ID | [04_PrivEsc/PE-VALID-017_Lighthouse_CT.md](04_PrivEsc/PE-VALID-017_Lighthouse_CT.md) |
 
 ## Subcategory 4.5: Account Manipulation (17 techniques)
 
 | ID | Technique Name | MITRE | CVE | Environment | File Path |
 |---|---|---|---|---|---|
-| PE-ACCTMGMT-001 | App Registration Permissions Escalation | T1098 | N/A | Entra ID | `04_PrivEsc/PE-ACCTMGMT-001_App_Reg.md` |
-| PE-ACCTMGMT-002 | Exchange Online Admin to Global | T1098 | N/A | M365 | `04_PrivEsc/PE-ACCTMGMT-002_Exchange_Admin.md` |
-| PE-ACCTMGMT-003 | SharePoint Site Collection Admin | T1098 | N/A | M365 | `04_PrivEsc/PE-ACCTMGMT-003_SharePoint_Admin.md` |
-| PE-ACCTMGMT-004 | Teams Admin to Global Admin | T1098 | N/A | M365 | `04_PrivEsc/PE-ACCTMGMT-004_Teams_Admin.md` |
-| PE-ACCTMGMT-005 | PowerApps/Power Platform Escalation | T1098 | N/A | M365 | `04_PrivEsc/PE-ACCTMGMT-005_PowerApps.md` |
-| PE-ACCTMGMT-006 | Intune Admin to Global Admin | T1098 | N/A | M365 | `04_PrivEsc/PE-ACCTMGMT-006_Intune_Admin.md` |
-| PE-ACCTMGMT-007 | Exchange RBAC Abuse | T1098 | N/A | M365 | `04_PrivEsc/PE-ACCTMGMT-007_Exchange_RBAC.md` |
-| PE-ACCTMGMT-008 | Azure Automation Runbook Escalation | T1098 | N/A | Entra ID | `04_PrivEsc/PE-ACCTMGMT-008_Automation.md` |
-| PE-ACCTMGMT-009 | Microsoft Defender for Cloud | T1098 | N/A | Entra ID | `04_PrivEsc/PE-ACCTMGMT-009_Defender_Cloud.md` |
-| PE-ACCTMGMT-010 | Azure DevOps Pipeline Escalation | T1098 | N/A | Entra ID | `04_PrivEsc/PE-ACCTMGMT-010_DevOps.md` |
-| PE-ACCTMGMT-011 | Privileged Identity Management (PIM) Abuse | T1098 | N/A | Entra ID | `04_PrivEsc/PE-ACCTMGMT-011_PIM.md` |
-| PE-ACCTMGMT-012 | Hybrid RBAC/PIM Role Activation | T1098 | N/A | Hybrid AD | `04_PrivEsc/PE-ACCTMGMT-012_Hybrid_RBAC.md` |
-| PE-ACCTMGMT-013 | Self-Service Password Reset Misconfiguration | T1098 | N/A | Entra ID | `04_PrivEsc/PE-ACCTMGMT-013_SSPR.md` |
-| PE-ACCTMGMT-014 | Global Administrator Backdoor | T1098 | N/A | Entra ID | `04_PrivEsc/PE-ACCTMGMT-014_Global_Admin.md` |
-| PE-ACCTMGMT-015 | Directory Synchronization Manipulation | T1098 | CVE-2023-32315 | Hybrid AD | `04_PrivEsc/PE-ACCTMGMT-015_DirSync.md` |
-| PE-ACCTMGMT-016 | Microsoft SCIM Provisioning Abuse | T1098 | N/A | Entra ID | `04_PrivEsc/PE-ACCTMGMT-016_SCIM.md` |
-| PE-ACCTMGMT-017 | Shadow Principal Configuration | T1098.004 | N/A | Entra ID | `04_PrivEsc/PE-ACCTMGMT-017_Shadow_Principal.md` |
+| PE-ACCTMGMT-001 | App Registration Permissions Escalation | T1098 | N/A | Entra ID | [04_PrivEsc/PE-ACCTMGMT-001_App_Reg.md](04_PrivEsc/PE-ACCTMGMT-001_App_Reg.md) |
+| PE-ACCTMGMT-002 | Exchange Online Admin to Global | T1098 | N/A | M365 | [04_PrivEsc/PE-ACCTMGMT-002_Exchange_Admin.md](04_PrivEsc/PE-ACCTMGMT-002_Exchange_Admin.md) |
+| PE-ACCTMGMT-003 | SharePoint Site Collection Admin | T1098 | N/A | M365 | [04_PrivEsc/PE-ACCTMGMT-003_SharePoint_Admin.md](04_PrivEsc/PE-ACCTMGMT-003_SharePoint_Admin.md) |
+| PE-ACCTMGMT-004 | Teams Admin to Global Admin | T1098 | N/A | M365 | [04_PrivEsc/PE-ACCTMGMT-004_Teams_Admin.md](04_PrivEsc/PE-ACCTMGMT-004_Teams_Admin.md) |
+| PE-ACCTMGMT-005 | PowerApps/Power Platform Escalation | T1098 | N/A | M365 | [04_PrivEsc/PE-ACCTMGMT-005_PowerApps.md](04_PrivEsc/PE-ACCTMGMT-005_PowerApps.md) |
+| PE-ACCTMGMT-006 | Intune Admin to Global Admin | T1098 | N/A | M365 | [04_PrivEsc/PE-ACCTMGMT-006_Intune_Admin.md](04_PrivEsc/PE-ACCTMGMT-006_Intune_Admin.md) |
+| PE-ACCTMGMT-007 | Exchange RBAC Abuse | T1098 | N/A | M365 | [04_PrivEsc/PE-ACCTMGMT-007_Exchange_RBAC.md](04_PrivEsc/PE-ACCTMGMT-007_Exchange_RBAC.md) |
+| PE-ACCTMGMT-008 | Azure Automation Runbook Escalation | T1098 | N/A | Entra ID | [04_PrivEsc/PE-ACCTMGMT-008_Automation.md](04_PrivEsc/PE-ACCTMGMT-008_Automation.md) |
+| PE-ACCTMGMT-009 | Microsoft Defender for Cloud | T1098 | N/A | Entra ID | [04_PrivEsc/PE-ACCTMGMT-009_Defender_Cloud.md](04_PrivEsc/PE-ACCTMGMT-009_Defender_Cloud.md) |
+| PE-ACCTMGMT-010 | Azure DevOps Pipeline Escalation | T1098 | N/A | Entra ID | [04_PrivEsc/PE-ACCTMGMT-010_DevOps.md](04_PrivEsc/PE-ACCTMGMT-010_DevOps.md) |
+| PE-ACCTMGMT-011 | Privileged Identity Management (PIM) Abuse | T1098 | N/A | Entra ID | [04_PrivEsc/PE-ACCTMGMT-011_PIM.md](04_PrivEsc/PE-ACCTMGMT-011_PIM.md) |
+| PE-ACCTMGMT-012 | Hybrid RBAC/PIM Role Activation | T1098 | N/A | Hybrid AD | [04_PrivEsc/PE-ACCTMGMT-012_Hybrid_RBAC.md](04_PrivEsc/PE-ACCTMGMT-012_Hybrid_RBAC.md) |
+| PE-ACCTMGMT-013 | Self-Service Password Reset Misconfiguration | T1098 | N/A | Entra ID | [04_PrivEsc/PE-ACCTMGMT-013_SSPR.md](04_PrivEsc/PE-ACCTMGMT-013_SSPR.md) |
+| PE-ACCTMGMT-014 | Global Administrator Backdoor | T1098 | N/A | Entra ID | [04_PrivEsc/PE-ACCTMGMT-014_Global_Admin.md](04_PrivEsc/PE-ACCTMGMT-014_Global_Admin.md) |
+| PE-ACCTMGMT-015 | Directory Synchronization Manipulation | T1098 | CVE-2023-32315 | Hybrid AD | [04_PrivEsc/PE-ACCTMGMT-015_DirSync.md](04_PrivEsc/PE-ACCTMGMT-015_DirSync.md) |
+| PE-ACCTMGMT-016 | Microsoft SCIM Provisioning Abuse | T1098 | N/A | Entra ID | [04_PrivEsc/PE-ACCTMGMT-016_SCIM.md](04_PrivEsc/PE-ACCTMGMT-016_SCIM.md) |
+| PE-ACCTMGMT-017 | Shadow Principal Configuration | T1098.004 | N/A | Entra ID | [04_PrivEsc/PE-ACCTMGMT-017_Shadow_Principal.md](04_PrivEsc/PE-ACCTMGMT-017_Shadow_Principal.md) |
 
 ## Subcategory 4.6: Abuse Elevation Control & Remote Services (12 techniques)
 
 | ID | Technique Name | MITRE | CVE | Environment | File Path |
 |---|---|---|---|---|---|
-| PE-ELEVATE-001 | AD CS Certificate Services Abuse | T1548 | CVE-2021-27239 | Windows AD | `04_PrivEsc/PE-ELEVATE-001_ADCS.md` |
-| PE-ELEVATE-002 | Alternative Subject Alternative Names (SANs) | T1548 | CVE-2021-27239 | Windows AD | `04_PrivEsc/PE-ELEVATE-002_SAN.md` |
-| PE-ELEVATE-003 | API Rate Limiting Bypass | T1548 | N/A | Entra ID/M365 | `04_PrivEsc/PE-ELEVATE-003_Rate_Limit.md` |
-| PE-ELEVATE-004 | Custom API RBAC Bypass | T1548 | N/A | Entra ID | `04_PrivEsc/PE-ELEVATE-004_Custom_API.md` |
-| PE-ELEVATE-005 | Graph API Permission Escalation | T1548 | N/A | M365/Entra ID | `04_PrivEsc/PE-ELEVATE-005_Graph_API.md` |
-| PE-ELEVATE-006 | Kubernetes RBAC Abuse | T1548 | N/A | Entra ID | `04_PrivEsc/PE-ELEVATE-006_K8s_RBAC.md` |
-| PE-ELEVATE-007 | AKS RBAC Excessive Permissions | T1548 | N/A | Entra ID | `04_PrivEsc/PE-ELEVATE-007_AKS_RBAC.md` |
-| PE-ELEVATE-008 | SaaS Admin Account Escalation | T1548 | N/A | M365/Entra ID | `04_PrivEsc/PE-ELEVATE-008_SaaS_Admin.md` |
-| PE-ELEVATE-009 | IoT Central Device Group Escalation | T1548 | N/A | Entra ID | `04_PrivEsc/PE-ELEVATE-009_IoT_Central.md` |
-| PE-ELEVATE-010 | Enterprise Application Permission | T1548 | N/A | M365/Entra ID | `04_PrivEsc/PE-ELEVATE-010_EntApp_Perm.md` |
-| PE-REMOTE-001 | Exchange Server Vulnerabilities | T1210 | CVE-2021-27065 | Windows AD | `04_PrivEsc/PE-REMOTE-001_Exchange.md` |
-| PE-REMOTE-002 | PrivExchange Attack | T1210 | CVE-2019-0604 | Windows AD | `04_PrivEsc/PE-REMOTE-002_PrivExchange.md` |
+| PE-ELEVATE-001 | AD CS Certificate Services Abuse | T1548 | CVE-2021-27239 | Windows AD | [04_PrivEsc/PE-ELEVATE-001_ADCS.md](04_PrivEsc/PE-ELEVATE-001_ADCS.md) |
+| PE-ELEVATE-002 | Alternative Subject Alternative Names (SANs) | T1548 | CVE-2021-27239 | Windows AD | [04_PrivEsc/PE-ELEVATE-002_SAN.md](04_PrivEsc/PE-ELEVATE-002_SAN.md) |
+| PE-ELEVATE-003 | API Rate Limiting Bypass | T1548 | N/A | Entra ID/M365 | [04_PrivEsc/PE-ELEVATE-003_Rate_Limit.md](04_PrivEsc/PE-ELEVATE-003_Rate_Limit.md) |
+| PE-ELEVATE-004 | Custom API RBAC Bypass | T1548 | N/A | Entra ID | [04_PrivEsc/PE-ELEVATE-004_Custom_API.md](04_PrivEsc/PE-ELEVATE-004_Custom_API.md) |
+| PE-ELEVATE-005 | Graph API Permission Escalation | T1548 | N/A | M365/Entra ID | [04_PrivEsc/PE-ELEVATE-005_Graph_API.md](04_PrivEsc/PE-ELEVATE-005_Graph_API.md) |
+| PE-ELEVATE-006 | Kubernetes RBAC Abuse | T1548 | N/A | Entra ID | [04_PrivEsc/PE-ELEVATE-006_K8s_RBAC.md](04_PrivEsc/PE-ELEVATE-006_K8s_RBAC.md) |
+| PE-ELEVATE-007 | AKS RBAC Excessive Permissions | T1548 | N/A | Entra ID | [04_PrivEsc/PE-ELEVATE-007_AKS_RBAC.md](04_PrivEsc/PE-ELEVATE-007_AKS_RBAC.md) |
+| PE-ELEVATE-008 | SaaS Admin Account Escalation | T1548 | N/A | M365/Entra ID | [04_PrivEsc/PE-ELEVATE-008_SaaS_Admin.md](04_PrivEsc/PE-ELEVATE-008_SaaS_Admin.md) |
+| PE-ELEVATE-009 | IoT Central Device Group Escalation | T1548 | N/A | Entra ID | [04_PrivEsc/PE-ELEVATE-009_IoT_Central.md](04_PrivEsc/PE-ELEVATE-009_IoT_Central.md) |
+| PE-ELEVATE-010 | Enterprise Application Permission | T1548 | N/A | M365/Entra ID | [04_PrivEsc/PE-ELEVATE-010_EntApp_Perm.md](04_PrivEsc/PE-ELEVATE-010_EntApp_Perm.md) |
+| PE-REMOTE-001 | Exchange Server Vulnerabilities | T1210 | CVE-2021-27065 | Windows AD | [04_PrivEsc/PE-REMOTE-001_Exchange.md](04_PrivEsc/PE-REMOTE-001_Exchange.md) |
+| PE-REMOTE-002 | PrivExchange Attack | T1210 | CVE-2019-0604 | Windows AD | [04_PrivEsc/PE-REMOTE-002_PrivExchange.md](04_PrivEsc/PE-REMOTE-002_PrivExchange.md) |
 
 ## Subcategory 4.7: Create Account (2 techniques)
 
 | ID | Technique Name | MITRE | CVE | Environment | File Path |
 |---|---|---|---|---|---|
-| PE-CREATE-001 | Insecure ms-DS-MachineAccountQuota | T1136.001 | CVE-2021-42287 | Windows AD | `04_PrivEsc/PE-CREATE-001_MachineAcctQuota.md` |
-| PE-CREATE-002 | MachineAccountQuota > 0 Exploitation | T1136.001 | N/A | Windows AD | `04_PrivEsc/PE-CREATE-002_MAQ_Exploit.md` |
+| PE-CREATE-001 | Insecure ms-DS-MachineAccountQuota | T1136.001 | CVE-2021-42287 | Windows AD | [04_PrivEsc/PE-CREATE-001_MachineAcctQuota.md](04_PrivEsc/PE-CREATE-001_MachineAcctQuota.md) |
+| PE-CREATE-002 | MachineAccountQuota > 0 Exploitation | T1136.001 | N/A | Windows AD | [04_PrivEsc/PE-CREATE-002_MAQ_Exploit.md](04_PrivEsc/PE-CREATE-002_MAQ_Exploit.md) |
 
 ## Subcategory 4.8: Discovery (1 technique)
 
 | ID | Technique Name | MITRE | CVE | Environment | File Path |
 |---|---|---|---|---|---|
-| PE-DISCOVER-001 | Azure Key Vault Managed Identity Discovery | T1580 | CVE-2023-28432 | Entra ID | `04_PrivEsc/PE-DISCOVER-001_KV_ManagedID.md` |
+| PE-DISCOVER-001 | Azure Key Vault Managed Identity Discovery | T1580 | CVE-2023-28432 | Entra ID | [04_PrivEsc/PE-DISCOVER-001_KV_ManagedID.md](04_PrivEsc/PE-DISCOVER-001_KV_ManagedID.md) |
 
 ---
 
