@@ -120,52 +120,52 @@ This file acts as the central navigational hub for the repository.
 
 | ID | Technique Name | MITRE | CVE | Environment | File Path |
 |---|---|---|---|---|---|
-| CA-STORE-001 | DPAPI credential decryption | T1555.003 | N/A | Windows Endpoint | `03_Cred/CA-STORE-001_DPAPI.md` |
-| CA-STORE-002 | Credential roaming abuse | T1555 | N/A | Windows AD | `03_Cred/CA-STORE-002_Roaming.md` |
-| CA-STORE-003 | Windows Credential Manager vault extraction | T1555.004 | N/A | Windows Endpoint | `03_Cred/CA-STORE-003_Vault.md` |
-| CA-STORE-004 | Browser saved credentials harvesting | T1555.003 | N/A | Windows Endpoint/M365 | `03_Cred/CA-STORE-004_Browser.md` |
-| CA-STORE-005 | Windows Vault cached accounts | T1555.004 | N/A | Windows Endpoint | `03_Cred/CA-STORE-005_Windows_Vault.md` |
-| CA-UNSC-001 | /etc/krb5.keytab extraction | T1552.004 | N/A | Linux/Unix | `03_Cred/CA-UNSC-001_Keytab.md` |
-| CA-UNSC-002 | /etc/sssd/sssd.conf harvesting | T1552.001 | N/A | Linux/Unix | `03_Cred/CA-UNSC-002_SSSD.md` |
-| CA-UNSC-003 | SYSVOL GPP credential extraction | T1552.006 | N/A | Windows AD | `03_Cred/CA-UNSC-003_SYSVOL.md` |
-| CA-UNSC-004 | NTFRS SYSVOL replication abuse | T1552.006 | N/A | Windows AD | `03_Cred/CA-UNSC-004_NTFRS.md` |
-| CA-UNSC-005 | gMSA credentials exposure | T1552.001 | N/A | Windows AD | `03_Cred/CA-UNSC-005_gMSA.md` |
-| CA-UNSC-006 | Private keys theft | T1552.004 | N/A | Multi-Env | `03_Cred/CA-UNSC-006_Private_Keys.md` |
-| CA-UNSC-007 | Azure Key Vault secret extraction | T1552.001 | CVE-2023-28432 | Entra ID | `03_Cred/CA-UNSC-007_KeyVault_Secrets.md` |
-| CA-UNSC-008 | Azure storage account key theft | T1552.001 | CVE-2023-28432 | Entra ID | `03_Cred/CA-UNSC-008_Storage_Keys.md` |
-| CA-UNSC-009 | Azure Key Vault keys/certs extraction | T1552.004 | CVE-2023-28432 | Entra ID | `03_Cred/CA-UNSC-009_KeyVault_Keys.md` |
-| CA-UNSC-010 | Service principal secrets harvesting | T1552.004 | N/A | Entra ID | `03_Cred/CA-UNSC-010_SP_Secrets.md` |
-| CA-UNSC-011 | Key Vault access policies abuse | T1552.007 | CVE-2023-28432 | Entra ID | `03_Cred/CA-UNSC-011_KV_Policies.md` |
-| CA-UNSC-012 | MIP master key theft | T1552.001 | N/A | M365 | `03_Cred/CA-UNSC-012_MIP_Key.md` |
-| CA-UNSC-013 | TPM key extraction | T1552.004 | N/A | Entra ID | `03_Cred/CA-UNSC-013_TPM.md` |
-| CA-UNSC-014 | SaaS API key exposure | T1552.001 | N/A | M365/Entra ID | `03_Cred/CA-UNSC-014_SaaS_Keys.md` |
-| CA-UNSC-015 | Pipeline environment variables theft | T1552.001 | N/A | Entra ID/DevOps | `03_Cred/CA-UNSC-015_Pipeline_Vars.md` |
-| CA-UNSC-016 | Pipeline variable groups abuse | T1552.001 | N/A | Entra ID/DevOps | `03_Cred/CA-UNSC-016_Var_Groups.md` |
-| CA-UNSC-017 | IoT device connection strings theft | T1552.001 | N/A | Entra ID | `03_Cred/CA-UNSC-017_IoT_Strings.md` |
-| CA-UNSC-018 | IoT device certificates theft | T1552.004 | N/A | Entra ID | `03_Cred/CA-UNSC-018_IoT_Certs.md` |
-| CA-UNSC-019 | Federation server certificate theft | T1552.004 | N/A | Hybrid AD | `03_Cred/CA-UNSC-019_Fed_Certs.md` |
-| CA-UNSC-020 | Multi-cloud federation certs theft | T1552.004 | N/A | Cross-Cloud | `03_Cred/CA-UNSC-020_Cloud_Certs.md` |
-| CA-UNSC-021 | Key Vault firewall bypass | T1552.007 | CVE-2023-28432 | Entra ID | `03_Cred/CA-UNSC-021_KV_Firewall.md` |
+| CA-STORE-001 | DPAPI credential decryption | T1555.003 | N/A | Windows Endpoint | [03_Cred/CA-STORE-001_DPAPI.md](03_Cred/CA-STORE-001_DPAPI.md) |
+| CA-STORE-002 | Credential roaming abuse | T1555 | N/A | Windows AD | [03_Cred/CA-STORE-002_Roaming.md](03_Cred/CA-STORE-002_Roaming.md) |
+| CA-STORE-003 | Windows Credential Manager vault extraction | T1555.004 | N/A | Windows Endpoint | [03_Cred/CA-STORE-003_Vault.md](03_Cred/CA-STORE-003_Vault.md) |
+| CA-STORE-004 | Browser saved credentials harvesting | T1555.003 | N/A | Windows Endpoint/M365 | [03_Cred/CA-STORE-004_Browser.md](03_Cred/CA-STORE-004_Browser.md) |
+| CA-STORE-005 | Windows Vault cached accounts | T1555.004 | N/A | Windows Endpoint | [03_Cred/CA-STORE-005_Windows_Vault.md](03_Cred/CA-STORE-005_Windows_Vault.md) |
+| CA-UNSC-001 | /etc/krb5.keytab extraction | T1552.004 | N/A | Linux/Unix | [03_Cred/CA-UNSC-001_Keytab.md](03_Cred/CA-UNSC-001_Keytab.md) |
+| CA-UNSC-002 | /etc/sssd/sssd.conf harvesting | T1552.001 | N/A | Linux/Unix | [03_Cred/CA-UNSC-002_SSSD.md](03_Cred/CA-UNSC-002_SSSD.md) |
+| CA-UNSC-003 | SYSVOL GPP credential extraction | T1552.006 | N/A | Windows AD | [03_Cred/CA-UNSC-003_SYSVOL.md](03_Cred/CA-UNSC-003_SYSVOL.md) |
+| CA-UNSC-004 | NTFRS SYSVOL replication abuse | T1552.006 | N/A | Windows AD | [03_Cred/CA-UNSC-004_NTFRS.md](03_Cred/CA-UNSC-004_NTFRS.md) |
+| CA-UNSC-005 | gMSA credentials exposure | T1552.001 | N/A | Windows AD | [03_Cred/CA-UNSC-005_gMSA.md](03_Cred/CA-UNSC-005_gMSA.md) |
+| CA-UNSC-006 | Private keys theft | T1552.004 | N/A | Multi-Env | [03_Cred/CA-UNSC-006_Private_Keys.md](03_Cred/CA-UNSC-006_Private_Keys.md) |
+| CA-UNSC-007 | Azure Key Vault secret extraction | T1552.001 | CVE-2023-28432 | Entra ID | [03_Cred/CA-UNSC-007_KeyVault_Secrets.md](03_Cred/CA-UNSC-007_KeyVault_Secrets.md) |
+| CA-UNSC-008 | Azure storage account key theft | T1552.001 | CVE-2023-28432 | Entra ID | [03_Cred/CA-UNSC-008_Storage_Keys.md](03_Cred/CA-UNSC-008_Storage_Keys.md) |
+| CA-UNSC-009 | Azure Key Vault keys/certs extraction | T1552.004 | CVE-2023-28432 | Entra ID | [03_Cred/CA-UNSC-009_KeyVault_Keys.md](03_Cred/CA-UNSC-009_KeyVault_Keys.md) |
+| CA-UNSC-010 | Service principal secrets harvesting | T1552.004 | N/A | Entra ID | [03_Cred/CA-UNSC-010_SP_Secrets.md](03_Cred/CA-UNSC-010_SP_Secrets.md) |
+| CA-UNSC-011 | Key Vault access policies abuse | T1552.007 | CVE-2023-28432 | Entra ID | [03_Cred/CA-UNSC-011_KV_Policies.md](03_Cred/CA-UNSC-011_KV_Policies.md) |
+| CA-UNSC-012 | MIP master key theft | T1552.001 | N/A | M365 | [03_Cred/CA-UNSC-012_MIP_Key.md](03_Cred/CA-UNSC-012_MIP_Key.md) |
+| CA-UNSC-013 | TPM key extraction | T1552.004 | N/A | Entra ID | [03_Cred/CA-UNSC-013_TPM.md](03_Cred/CA-UNSC-013_TPM.md) |
+| CA-UNSC-014 | SaaS API key exposure | T1552.001 | N/A | M365/Entra ID | [03_Cred/CA-UNSC-014_SaaS_Keys.md](03_Cred/CA-UNSC-014_SaaS_Keys.md) |
+| CA-UNSC-015 | Pipeline environment variables theft | T1552.001 | N/A | Entra ID/DevOps | [03_Cred/CA-UNSC-015_Pipeline_Vars.md](03_Cred/CA-UNSC-015_Pipeline_Vars.md) |
+| CA-UNSC-016 | Pipeline variable groups abuse | T1552.001 | N/A | Entra ID/DevOps | [03_Cred/CA-UNSC-016_Var_Groups.md](03_Cred/CA-UNSC-016_Var_Groups.md) |
+| CA-UNSC-017 | IoT device connection strings theft | T1552.001 | N/A | Entra ID | [03_Cred/CA-UNSC-017_IoT_Strings.md](03_Cred/CA-UNSC-017_IoT_Strings.md) |
+| CA-UNSC-018 | IoT device certificates theft | T1552.004 | N/A | Entra ID | [03_Cred/CA-UNSC-018_IoT_Certs.md](03_Cred/CA-UNSC-018_IoT_Certs.md) |
+| CA-UNSC-019 | Federation server certificate theft | T1552.004 | N/A | Hybrid AD | [03_Cred/CA-UNSC-019_Fed_Certs.md](03_Cred/CA-UNSC-019_Fed_Certs.md) |
+| CA-UNSC-020 | Multi-cloud federation certs theft | T1552.004 | N/A | Cross-Cloud | [03_Cred/CA-UNSC-020_Cloud_Certs.md](03_Cred/CA-UNSC-020_Cloud_Certs.md) |
+| CA-UNSC-021 | Key Vault firewall bypass | T1552.007 | CVE-2023-28432 | Entra ID | [03_Cred/CA-UNSC-021_KV_Firewall.md](03_Cred/CA-UNSC-021_KV_Firewall.md) |
 
 ## Subcategory 3.4: Steal Application Access Tokens & Cookies (15 techniques)
 
 | ID | Technique Name | MITRE | CVE | Environment | File Path |
 |---|---|---|---|---|---|
-| CA-TOKEN-001 | Hybrid AD cloud token theft | T1528 | CVE-2023-32315 | Hybrid AD | `03_Cred/CA-TOKEN-001_Hybrid_Token.md` |
-| CA-TOKEN-002 | Azure AD Connect credential extraction | T1528 | CVE-2023-32315 | Hybrid AD | `03_Cred/CA-TOKEN-002_AADConnect.md` |
-| CA-TOKEN-003 | Azure Function key extraction | T1528 | N/A | Entra ID | `03_Cred/CA-TOKEN-003_Function_Keys.md` |
-| CA-TOKEN-004 | Graph API token theft | T1528 | N/A | M365 | `03_Cred/CA-TOKEN-004_Graph_Token.md` |
-| CA-TOKEN-005 | OAuth access token interception | T1528 | N/A | Entra ID | `03_Cred/CA-TOKEN-005_OAuth_Token.md` |
-| CA-TOKEN-006 | Service principal certificate theft | T1528 | N/A | Entra ID | `03_Cred/CA-TOKEN-006_SP_Cert.md` |
-| CA-TOKEN-007 | Managed identity token theft | T1528 | N/A | Entra ID | `03_Cred/CA-TOKEN-007_Managed_ID.md` |
-| CA-TOKEN-008 | Azure DevOps PAT theft | T1528 | CVE-2023-21540 | Entra ID | `03_Cred/CA-TOKEN-008_DevOps_PAT.md` |
-| CA-TOKEN-009 | Teams token extraction | T1528 | N/A | M365 | `03_Cred/CA-TOKEN-009_Teams_Token.md` |
-| CA-TOKEN-010 | Office document token theft | T1528 | N/A | M365 | `03_Cred/CA-TOKEN-010_Office_Token.md` |
-| CA-TOKEN-011 | Exchange Online OAuth token theft | T1528 | N/A | M365 | `03_Cred/CA-TOKEN-011_Exchange_Token.md` |
-| CA-TOKEN-012 | PRT Primary Refresh Token attacks | T1528 | CVE-2021-42287 | Entra ID | `03_Cred/CA-TOKEN-012_PRT.md` |
-| CA-COOKIE-001 | SharePoint Online cookie theft | T1539 | N/A | M365 | `03_Cred/CA-COOKIE-001_SP_Cookie.md` |
-| CA-COOKIE-002 | Authenticator app session hijacking | T1539 | N/A | Entra ID | `03_Cred/CA-COOKIE-002_Authenticator.md` |
-| CA-FORGE-001 | Golden SAML cross-tenant attack | T1606.002 | CVE-2021-26906 | Hybrid AD/Entra ID | `03_Cred/CA-FORGE-001_Golden_SAML.md` |
+| CA-TOKEN-001 | Hybrid AD cloud token theft | T1528 | CVE-2023-32315 | Hybrid AD | [03_Cred/CA-TOKEN-001_Hybrid_Token.md](03_Cred/CA-TOKEN-001_Hybrid_Token.md) |
+| CA-TOKEN-002 | Azure AD Connect credential extraction | T1528 | CVE-2023-32315 | Hybrid AD | [03_Cred/CA-TOKEN-002_AADConnect.md](03_Cred/CA-TOKEN-002_AADConnect.md) |
+| CA-TOKEN-003 | Azure Function key extraction | T1528 | N/A | Entra ID | [03_Cred/CA-TOKEN-003_Function_Keys.md](03_Cred/CA-TOKEN-003_Function_Keys.md) |
+| CA-TOKEN-004 | Graph API token theft | T1528 | N/A | M365 | [03_Cred/CA-TOKEN-004_Graph_Token.md](03_Cred/CA-TOKEN-004_Graph_Token.md) |
+| CA-TOKEN-005 | OAuth access token interception | T1528 | N/A | Entra ID | [03_Cred/CA-TOKEN-005_OAuth_Token.md](03_Cred/CA-TOKEN-005_OAuth_Token.md) |
+| CA-TOKEN-006 | Service principal certificate theft | T1528 | N/A | Entra ID | [03_Cred/CA-TOKEN-006_SP_Cert.md](03_Cred/CA-TOKEN-006_SP_Cert.md) |
+| CA-TOKEN-007 | Managed identity token theft | T1528 | N/A | Entra ID | [03_Cred/CA-TOKEN-007_Managed_ID.md](03_Cred/CA-TOKEN-007_Managed_ID.md) |
+| CA-TOKEN-008 | Azure DevOps PAT theft | T1528 | CVE-2023-21540 | Entra ID | [03_Cred/CA-TOKEN-008_DevOps_PAT.md](03_Cred/CA-TOKEN-008_DevOps_PAT.md) |
+| CA-TOKEN-009 | Teams token extraction | T1528 | N/A | M365 | [03_Cred/CA-TOKEN-009_Teams_Token.md](03_Cred/CA-TOKEN-009_Teams_Token.md) |
+| CA-TOKEN-010 | Office document token theft | T1528 | N/A | M365 | [03_Cred/CA-TOKEN-010_Office_Token.md](03_Cred/CA-TOKEN-010_Office_Token.md) |
+| CA-TOKEN-011 | Exchange Online OAuth token theft | T1528 | N/A | M365 | [03_Cred/CA-TOKEN-011_Exchange_Token.md](03_Cred/CA-TOKEN-011_Exchange_Token.md) |
+| CA-TOKEN-012 | PRT Primary Refresh Token attacks | T1528 | CVE-2021-42287 | Entra ID | [03_Cred/CA-TOKEN-012_PRT.md](03_Cred/CA-TOKEN-012_PRT.md) |
+| CA-COOKIE-001 | SharePoint Online cookie theft | T1539 | N/A | M365 | [03_Cred/CA-COOKIE-001_SP_Cookie.md](03_Cred/CA-COOKIE-001_SP_Cookie.md) |
+| CA-COOKIE-002 | Authenticator app session hijacking | T1539 | N/A | Entra ID | [03_Cred/CA-COOKIE-002_Authenticator.md](03_Cred/CA-COOKIE-002_Authenticator.md) |
+| CA-FORGE-001 | Golden SAML cross-tenant attack | T1606.002 | CVE-2021-26906 | Hybrid AD/Entra ID | [03_Cred/CA-FORGE-001_Golden_SAML.md](03_Cred/CA-FORGE-001_Golden_SAML.md) |
 
 ---
 
@@ -173,22 +173,22 @@ This file acts as the central navigational hub for the repository.
 
 | ID | Technique Name | MITRE | CVE | Environment | File Path |
 |---|---|---|---|---|---|
-| CA-TOKEN-013 | AKS service account token theft | T1528 | N/A | Entra ID | `03_Cred/CA-TOKEN-013_AKS_Token.md` |
-| CA-TOKEN-014 | Container registry token theft | T1528 | N/A | Entra ID | `03_Cred/CA-TOKEN-014_Registry_Token.md` |
-| CA-TOKEN-015 | DevOps pipeline credential extraction | T1528 | N/A | Entra ID/DevOps | `03_Cred/CA-TOKEN-015_Pipeline_Creds.md` |
-| CA-TOKEN-016 | Artifact registry token theft | T1528 | N/A | Entra ID | `03_Cred/CA-TOKEN-016_Artifact_Token.md` |
-| CA-TOKEN-017 | Package source credential theft | T1528 | N/A | Entra ID/DevOps | `03_Cred/CA-TOKEN-017_Package_Creds.md` |
-| CA-TOKEN-018 | Cloud-to-cloud token compromise | T1528 | N/A | Cross-Cloud | `03_Cred/CA-TOKEN-018_Cloud2Cloud.md` |
-| CA-TOKEN-019 | AWS STS token abuse via Azure | T1528 | N/A | Cross-Cloud | `03_Cred/CA-TOKEN-019_AWS_STS.md` |
-| CA-TOKEN-020 | FIDO2 resident credential extraction | T1528 | N/A | Entra ID | `03_Cred/CA-TOKEN-020_FIDO2.md` |
-| CA-TOKEN-021 | Entra SSO credential theft | T1528 | N/A | M365/Entra ID | `03_Cred/CA-TOKEN-021_SSO_Creds.md` |
-| CA-TOKEN-022 | SP certificate token forgery | T1552.004 | N/A | Entra ID | `03_Cred/CA-TOKEN-022_SP_Forgery.md` |
-| CA-FORGE-002 | ADFS token forging | T1606.002 | N/A | Hybrid AD | `03_Cred/CA-FORGE-002_ADFS_Token.md` |
-| CA-FORCE-001 | SCF/URL file NTLM trigger | T1187 | CVE-2025-24054 | Windows AD | `03_Cred/CA-FORCE-001_SCF_URL.md` |
-| CA-FORCE-002 | .library-ms NTLM hash leakage | T1187 | CVE-2025-24054 | Windows AD | `03_Cred/CA-FORCE-002_Library_ms.md` |
-| CA-BRUTE-001 | Azure portal password spray | T1110.003 | N/A | Entra ID | `03_Cred/CA-BRUTE-001_Azure_Spray.md` |
-| CA-BRUTE-002 | Distributed password spraying | T1110.003 | N/A | Multi-Env | `03_Cred/CA-BRUTE-002_Password_Spray.md` |
-| CA-BRUTE-003 | MFA bombing/fatigue attacks | T1621 | N/A | Entra ID | `03_Cred/CA-BRUTE-003_MFA_Bombing.md` |
+| CA-TOKEN-013 | AKS service account token theft | T1528 | N/A | Entra ID | [03_Cred/CA-TOKEN-013_AKS_Token.md](03_Cred/CA-TOKEN-013_AKS_Token.md) |
+| CA-TOKEN-014 | Container registry token theft | T1528 | N/A | Entra ID | [03_Cred/CA-TOKEN-014_Registry_Token.md](03_Cred/CA-TOKEN-014_Registry_Token.md) |
+| CA-TOKEN-015 | DevOps pipeline credential extraction | T1528 | N/A | Entra ID/DevOps | [03_Cred/CA-TOKEN-015_Pipeline_Creds.md](03_Cred/CA-TOKEN-015_Pipeline_Creds.md) |
+| CA-TOKEN-016 | Artifact registry token theft | T1528 | N/A | Entra ID | [03_Cred/CA-TOKEN-016_Artifact_Token.md](03_Cred/CA-TOKEN-016_Artifact_Token.md) |
+| CA-TOKEN-017 | Package source credential theft | T1528 | N/A | Entra ID/DevOps | [03_Cred/CA-TOKEN-017_Package_Creds.md](03_Cred/CA-TOKEN-017_Package_Creds.md) |
+| CA-TOKEN-018 | Cloud-to-cloud token compromise | T1528 | N/A | Cross-Cloud | [03_Cred/CA-TOKEN-018_Cloud2Cloud.md](03_Cred/CA-TOKEN-018_Cloud2Cloud.md) |
+| CA-TOKEN-019 | AWS STS token abuse via Azure | T1528 | N/A | Cross-Cloud | [03_Cred/CA-TOKEN-019_AWS_STS.md](03_Cred/CA-TOKEN-019_AWS_STS.md) |
+| CA-TOKEN-020 | FIDO2 resident credential extraction | T1528 | N/A | Entra ID | [03_Cred/CA-TOKEN-020_FIDO2.md](03_Cred/CA-TOKEN-020_FIDO2.md) |
+| CA-TOKEN-021 | Entra SSO credential theft | T1528 | N/A | M365/Entra ID | [03_Cred/CA-TOKEN-021_SSO_Creds.md](03_Cred/CA-TOKEN-021_SSO_Creds.md) |
+| CA-TOKEN-022 | SP certificate token forgery | T1552.004 | N/A | Entra ID | [03_Cred/CA-TOKEN-022_SP_Forgery.md](03_Cred/CA-TOKEN-022_SP_Forgery.md) |
+| CA-FORGE-002 | ADFS token forging | T1606.002 | N/A | Hybrid AD | [03_Cred/CA-FORGE-002_ADFS_Token.md](03_Cred/CA-FORGE-002_ADFS_Token.md) |
+| CA-FORCE-001 | SCF/URL file NTLM trigger | T1187 | CVE-2025-24054 | Windows AD | [03_Cred/CA-FORCE-001_SCF_URL.md](03_Cred/CA-FORCE-001_SCF_URL.md) |
+| CA-FORCE-002 | .library-ms NTLM hash leakage | T1187 | CVE-2025-24054 | Windows AD | [03_Cred/CA-FORCE-002_Library_ms.md](03_Cred/CA-FORCE-002_Library_ms.md) |
+| CA-BRUTE-001 | Azure portal password spray | T1110.003 | N/A | Entra ID | [03_Cred/CA-BRUTE-001_Azure_Spray.md](03_Cred/CA-BRUTE-001_Azure_Spray.md) |
+| CA-BRUTE-002 | Distributed password spraying | T1110.003 | N/A | Multi-Env | [03_Cred/CA-BRUTE-002_Password_Spray.md](03_Cred/CA-BRUTE-002_Password_Spray.md) |
+| CA-BRUTE-003 | MFA bombing/fatigue attacks | T1621 | N/A | Entra ID | [03_Cred/CA-BRUTE-003_MFA_Bombing.md](03_Cred/CA-BRUTE-003_MFA_Bombing.md) |
 
 ---
 
